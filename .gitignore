@@ -1,0 +1,38 @@
+# Unity-generated folders (if a Unity project is later added)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+.DS_Store
+Thumbs.db
+
+# Local LLM weights and caches: download through Ollama instead
+OllamaModels/
+Models/
+*.gguf
+*.safetensors
+
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+
+# Temporary AI-generated backups / files
+*.bak
+*.tmp
+UnityLocalAIBackups/
